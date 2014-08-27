@@ -47,7 +47,7 @@ Simple immutable sorted uncompressed store of keys with a Values file frame loca
 ###Values
 Simple immutable compressed store of values in key order. Compressed using [Snappy frame compression](https://snappy.googlecode.com/svn/trunk/framing_format.txt). Format is as follows:
 ```
-Number of chunks
+Number of Frames
 Offset of Frame #0
 Offset of Frame #1
 Offset of Frame #2
