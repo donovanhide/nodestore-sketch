@@ -59,7 +59,7 @@ Frame #1 type 0x00 (compressed)
 ...
 ```
 ###Bloom Filters
-Simple file containing compressed serialized form of a bloom filter which contains k hashes of all the keys in the associated Keys file. It has a fixed length to be decided on based on the expected number of sets of threee files that will exist for the lifetime of the server.
+Simple immutable file containing compressed serialized form of a bloom filter which contains k hashes of all the keys in the associated Keys file. It has a fixed length to be decided on based on the expected number of sets of threee files that will exist for the lifetime of the server.
 
 ## Operation
 
