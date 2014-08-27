@@ -93,7 +93,7 @@ All bloom filters are loaded into memory. File descriptors for opened keys and v
 ## Maintenance
 
 ###Pruning
-* Use the nodestore to load the a historic ledgerstate, say 1000 ledgers behind. Write it fully to disk with the ledger number as the filename. This set of three files will probably be bigger than other sets. 
+* Use the nodestore to load a historic ledgerstate, say 1000 ledgers behind the current ledger. Write it fully to disk with the ledger number as the filename. This set of three files will probably be bigger than other sets. 
 * Delete all sets of three files with a ledger number below the target ledger.
 
 
