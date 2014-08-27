@@ -6,7 +6,7 @@
 * Values are variable length and compress well
 * Keys and values are write once, read many
 * There is no natural ordering to keys, but keys and values written together in chronological order are more likely to be read in the same order.
-* Bloom Filters should be kept in most recently used order. It is likely that the last used bloom filter will give a positive for the next key request is key requests are received in ledger order.
+* Bloom Filters should be kept in most recently used order. It is likely that the last used bloom filter will give a positive for the next key request as key requests are typically received in ledger order.
 
 ##Design
 
